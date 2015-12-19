@@ -41,5 +41,8 @@ namespace CONTROLLER
 		string GetCardNo(const CardID id);
 		bool Deposit(const CardID id, const unsigned long long amount);
 		bool Withdraw(const CardID id, const unsigned long long amount);
+
+		/* run socket server */
+		bool Server();
 	};
 }

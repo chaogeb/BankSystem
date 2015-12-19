@@ -213,7 +213,9 @@ namespace BASH
 	void IO::f4_server()
 	{
 		CLS;
-		getchar();
+		cout << "服务器正在运行..." << endl;
+		cout << "按 Ctrl+C 退出..." << endl;
+		fc.Server();
 		PAUSE;
 	}
 
